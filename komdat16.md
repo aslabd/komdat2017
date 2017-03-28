@@ -18,25 +18,23 @@ CouchCMS adalah sebuah Content Management System (CMS) yang membantu web designe
 - Buka link http://172.18.88.86/couch
 - Sign up sebagai admin Couch CMS, lalu log in
 
-## Otomatisasi
-
-Skrip shell untuk otomatisasi instalasi dan konfigurasi.
-
 ## Cara Pemakaian
-
-- Buat web yang kita inginkan
+- Edit file seluruh file yang ingin dapat diedit dengan menambahkan kode berikut:
+```php
+<?php require_once( 'couch/cms.php' ); ?>
+```
+pada bagian atas file dan kode berikut:
+```php
+<?php COUCH::invoke(); ?>
+```
+pada bagian bawah file about.php.
 - Kasus: ingin membuat halaman about.php bisa diubah kontennya melalui CouchCMS
-    1. Edit file about.php dengan menambahkan .... pada bagian atas file dan .... pada bagian bawah file.
-    2. Pada bagian konten yang ingin diedit, apit kode konten tersebut diantara ... dan ...
-    3. Load halaman about.php pada browser
-    4. Selesai
+    1. Pada bagian konten yang ingin diedit, apit kode konten tersebut diantara ... dan ...
+    2. Reload halaman about.php pada browser agar konfigurasi aktif.
 
 ## Pembahasan
 
-- Pendapat anda tentang aplikasi web ini
-	- pros: 
-	- cons: 
-- Bandingkan dengan aplikasi web kelompok lain yang sejenis
+CouchCMS sangat mudah digunakan untuk membuat web. Hanya perlu meng-include file couch/cms.php, anda dapat mengedit kontennya melalui dashboard CouchCMS.
 
 ## Referensi
 
