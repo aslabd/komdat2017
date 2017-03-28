@@ -28,15 +28,20 @@ pada bagian atas file dan kode berikut:
 <?php COUCH::invoke(); ?>
 ```
 pada bagian bawah file.
-- Reload seluruh halaman yang telah diedit untuk mengaktifkannya
+- Reload seluruh halaman yang telah diedit untuk mengaktifkannya.
 - Kasus: ingin membuat konten di halaman about.php dapat diedit di dashboard CouchCMS
-    1. Bukalah file about.php menggunakan editor
+    1. Bukalah file about.php menggunakan editor.
     2. Apitlah kode html yang ingin bisa diedit dengan kode berikut:
     ```
     <cms:editable name='main_content' type='richtext'> original content </cms:editable>
     ```
-    Contoh: saya ingin kolom sebelah kiri berikut yang dapat diedit.
-
+    3. Reload halaman about.php melalui browser.
+    Contoh: 
+    Saya ingin kolom sebelah kiri dan kanan di halaman berikut yang dapat diedit.
+    Maka, saya akan buka file about.php, mencari baris yang bersangkutan.
+    Lalu saya akan menambahkan kode pada poin nomor 2 seperti dibawah.
+    Saya reload halaman about.php di browser, lalu kemudian pergi ke dashboard. Disana akan muncul dua editor.
+    Selesai.
 
 ## Pembahasan
 
