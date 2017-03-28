@@ -18,6 +18,7 @@ CouchCMS adalah sebuah Content Management System (CMS) yang membantu web designe
 - Sign up sebagai admin Couch CMS, lalu log in
 
 ## Cara Pemakaian
+- Apabila masih memiliki halaman web berekstensi .html/.htm, ubahlah menjadi ekstensi.php (karena CouchCMS bekerja di PHP)
 - Edit file seluruh file yang ingin dapat diedit menggunakan CouchCMS dengan menambahkan kode berikut:
 ```
 <?php require_once( 'couch/cms.php' ); ?>
@@ -28,6 +29,13 @@ pada bagian atas file dan kode berikut:
 ```
 pada bagian bawah file.
 - Reload seluruh halaman yang telah diedit untuk mengaktifkannya
+- Kasus: ingin membuat konten di halaman about.php dapat diedit di dashboard CouchCMS
+    1. Bukalah file about.php menggunakan editor
+    2. Apitlah kode html yang ingin bisa diedit dengan kode berikut:
+    ```
+    <cms:editable name='main_content' type='richtext'> original content </cms:editable>
+    ```
+    Contoh: saya ingin kolom sebelah kiri berikut yang dapat diedit.
 
 
 ## Pembahasan
