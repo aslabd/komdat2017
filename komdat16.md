@@ -12,9 +12,10 @@ CouchCMS adalah sebuah Content Management System (CMS) yang membantu web designe
 
 ## Instalasi
 
-- Clone repositori Couch CMS dari github ke folder /var/www/html yang berisi file web Anda (semua file dalam ekstensi .php)
-- Ubah konfigurasi dengan mengubah nama basis data, nama user, password, dan host pada file config.php
-- Buka link http://172.18.88.86/couch
+- Clone repositori Couch CMS dari github ke folder /var/www/html yang berisi file web Anda (semua file dalam ekstensi .php).
+- Ubah nama file config.example.php menjadi config.php.
+- Ubah konfigurasi dengan mengubah nama basis data, nama user, password, dan host pada file config.php.
+- Buka link http://86.apps.cs.ipb.ac.id/couch.
 - Sign up sebagai admin Couch CMS, lalu log in
 
 ## Cara Pemakaian
