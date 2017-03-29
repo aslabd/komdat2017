@@ -39,6 +39,11 @@ pada bagian bawah file.
     3. Reload halaman about.php melalui browser.
     Contoh: 
     Saya ingin kolom sebelah kiri dan kanan di halaman berikut yang dapat diedit.
+    <a href="https://ibb.co/nO6OQa"><img src="https://preview.ibb.co/bwOgBF/komdat1.jpg" alt="komdat1" border="0"></a>
+    <a href="https://ibb.co/i8hKyv"><img src="https://image.ibb.co/c533Qa/komdat2.jpg" alt="komdat2" border="0"></a>
+    <a href="https://imgbb.com/"><img src="https://image.ibb.co/gaweyv/komdat3.jpg" alt="komdat3" border="0"></a>
+    <a href="https://ibb.co/ne7V5a"><img src="https://preview.ibb.co/gsuA5a/komdat4.jpg" alt="komdat4" border="0"></a>
+    <a href="https://ibb.co/cF5uWF"><img src="https://preview.ibb.co/ie9MBF/komdat5.jpg" alt="komdat5" border="0"></a><br /><a target='_blank' href='https://id.imgbb.com/'>img upload</a><br />
     Maka, saya akan buka file about.php, mencari baris yang bersangkutan.
     Lalu saya akan menambahkan kode pada poin nomor 2 seperti dibawah.
     Saya reload halaman about.php di browser, lalu kemudian pergi ke dashboard. Disana akan muncul dua editor.
