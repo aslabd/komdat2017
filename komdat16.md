@@ -2,7 +2,7 @@
 
 ## Sekilas Tentang CouchCMS
 
-CouchCMS adalah sebuah Content Management System (CMS) yang membantu web designer dalam mengisi dan mengubah konten pada web.
+CouchCMS adalah sebuah Content Management System (CMS) yang membantu web designer dalam mendesain, membuat, mengisi, dan mengubah konten pada web.
 
 ## Requirement
 
@@ -12,7 +12,7 @@ CouchCMS adalah sebuah Content Management System (CMS) yang membantu web designe
 
 ## Instalasi
 
-- Clone repositori Couch CMS dari github ke folder /var/www/html yang berisi file web Anda (semua file dalam ekstensi .php).
+- Clone repositori Couch CMS dari github ke folder yang berisi file web Anda (semua file dalam ekstensi .php).
 - Ubah nama file config.example.php menjadi config.php.
 - Ubah konfigurasi dengan mengubah nama basis data, nama user, password, dan host pada file config.php.
 - Buka link http://86.apps.cs.ipb.ac.id/couch.
@@ -47,8 +47,9 @@ pada bagian bawah file.
     Maka, saya akan buka file about.php, mencari baris yang bersangkutan.
     <br><img src="https://preview.ibb.co/ie9MBF/komdat5.jpg" alt="komdat5" border="0"><br>
     Lalu saya akan menambahkan kode pada poin nomor 2 seperti dibawah.
-    Saya reload halaman about.php di browser, lalu kemudian pergi ke dashboard. Disana akan muncul dua editor.
-    Selesai.
+    <br><img src="https://preview.ibb.co/iaM7ka/komdat6.jpg" alt="komdat6" border="0"><br>
+    Saya reload halaman about.php di browser, lalu kemudian pergi ke dashboard. Disana akan muncul dua editor.Selesai.
+    <br><img src="https://image.ibb.co/mJMjWF/komdat7.jpg" alt="komdat7" border="0"><br>
 
 ## Pembahasan
 
