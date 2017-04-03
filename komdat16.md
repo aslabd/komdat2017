@@ -9,25 +9,46 @@ CouchCMS adalah sebuah Content Management System (CMS) yang membantu web designe
 - PHP 5.0.0 keatas
 - MySQL 4.1.2 keatas
 - Apache
+```
+sudo apt install apache2
+sudo apt install mysql-server
+sudo apt install php
+sudo apt install libapache2-mod-php
+sudo apt install php-mysql
+sudo apt install php-gd php-mcrypt php-mbstring php-xml php-ssh2
+sudo service apache2 restart
+```
 
 ## Instalasi
 
 - Clone repositori Couch CMS dari github ke folder yang berisi file web Anda (semua file dalam ekstensi .php).
+
+```
+git clone https://github.com/CouchCMS/CouchCMS.git
+```
+
 - Ubah nama file config.example.php menjadi config.php.
 - Ubah konfigurasi dengan mengubah nama basis data, nama user, password, dan host pada file config.php.
+
+<br><img src="http://docs.couchcms.com/assets/img/contents/portfolio-site-3.png" alt="komdat1" border="0"><br>
+
 - Buka link http://86.apps.cs.ipb.ac.id/couch.
 - Sign up sebagai admin Couch CMS, lalu log in
 
 ## Cara Pemakaian
 - Apabila masih memiliki halaman web berekstensi .html/.htm, ubahlah menjadi ekstensi.php (karena CouchCMS bekerja di PHP)
 - Edit file seluruh file yang ingin dapat diedit menggunakan CouchCMS dengan menambahkan kode berikut:
+
 ```
 <?php require_once( 'couch/cms.php' ); ?>
+
 ```
 pada bagian atas file dan kode berikut:
+
 ```
 <?php COUCH::invoke(); ?>
 ```
+
 <br><img src="https://preview.ibb.co/bwOgBF/komdat1.jpg" alt="komdat1" border="0"><br>
 <br><img src="https://image.ibb.co/c533Qa/komdat2.jpg" alt="komdat2" border="0"><br>
 pada bagian bawah file.
@@ -55,6 +76,8 @@ pada bagian bawah file.
 
 CouchCMS sangat mudah digunakan untuk membuat web. Hanya perlu meng-include file couch/cms.php, Anda dapat mengedit kontennya melalui dashboard CouchCMS.
 Dalam membuat web yang menggunakan CouchCMS diperlukan pengetahuan mengenai XML, karena CouchCMS memiliki tag-tag sendiri. Hampir tidak perlu pengetahuan mengenai PHP.
+
+
 
 ## Referensi
 
